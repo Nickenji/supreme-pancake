@@ -15,52 +15,53 @@
   <!-- styles.css -->
   <link rel="stylesheet" href="styles/styles.css">
   <!-- icons -->
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/8498a0ae19.js"></script>
+
+  <!--<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
 
   <title>Nicolas Goh</title>
-  <link rel="icon" href="images/favicon.png">
 </head>
 
 <body>
 
-  <!-- navbar -->
+  <!-- NAVBAR -->
   <nav class="navbar navbar-expand-sm navbar-dark fixed-top transparent">
     <div class="container">
 
-      <!-- collapse button-->
+      <!-- COLLAPSE BUTTON -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- links -->
+      <!-- ITEMS/LINKS -->
       <div class="collapse navbar-collapse" id="collapseNavbar">
         <ul class="navbar-nav mx-auto">
 
           <li class="nav-item centered">
             <a class="nav-link transition" href="#home">
-              <div class="icon"><i class="fa fa-home"></i></div>
+              <div class="icon"><i class="fas fa-home"></i></div>
               <div class="name" data-text="Home">Home</div>
             </a>
           </li>
 
           <li class="nav-item centered">
             <a class="nav-link transition" href="#resume">
-              <div class="icon"><i class="fa fa-file-text-o"></i></div>
+              <div class="icon"><i class="far fa-file-alt"></i></div>
               <div class="name" data-text="Resume">Resume</div>
             </a>
           </li>
 
           <li class="nav-item centered">
             <a class="nav-link transition" href="#projects">
-              <div class="icon"><i class="fa fa-briefcase"></i></div>
+              <div class="icon"><i class="fas fa-briefcase"></i></div>
               <div class="name" data-text="Projects">Projects</div>
             </a>
           </li>
 
           <li class="nav-item centered">
             <a class="nav-link transition" href="#contact">
-              <div class="icon"><i class="fa fa-envelope"></i></div>
+              <div class="icon"><i class="far fa-envelope"></i></div>
               <div class="name" data-text="Contact">Contact</div>
             </a>
           </li>
@@ -70,7 +71,7 @@
     </div>
   </nav>
 
-  <!-- header with parallax background-->
+  <!-- HEADER WITH PARALLAX BACKGROUND -->
   <header class="parallax" id="home">
     <div class="parallax-text">
       <h1>Hello! I'm Nicolas,</h1>
@@ -79,8 +80,8 @@
     </div>
   </header>
 
-  <!-- resume -->
-  <article class="bg-purple" id="resume">
+  <!-- RESUME -->
+  <article class="bg-purple space" id="resume">
     <div class="container">
 
       <section class="row">
@@ -99,12 +100,12 @@
 
       <section class="row divider-top">
         <div class="col-md-9 divider-right"">
-          <h2 class=" center"><i class="fa fa-file-text-o"></i></h2>
+          <h2 class=" center"><i class="far fa-file-alt"></i></h2>
           <h3 class="center">Education</h3>
           <p>[2017 - 2021] - Bachelor's in Information Systems - University of São Paulo (USP)</p>
           <h3 class="center">Experience</h3>
 
-          <!-- timeline-->
+          <!-- TIMELINE-->
           <ul class="timeline">
 
             <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
@@ -156,7 +157,7 @@
         </div>
 
         <aside class="col-md-3">
-          <h2 class="center"><i class="fa fa-code"></i></h2>
+          <h2 class="center"><i class="fas fa-laptop-code"></i></h2>
           <ul class="list-unstyled center">
             <li>
               <h4>JAVA</h4>
@@ -177,7 +178,7 @@
 
           <br>
 
-          <h2 class="center"><i class="fa fa-language"></i></h2>
+          <h2 class="center"><i class="fas fa-language"></i></h2>
           <ul class="list-unstyled center">
             <li>
               <h4>Portuguese</h4>
@@ -195,15 +196,62 @@
               <h4>Korean</h4>
             </li>
           </ul>
+
+          <br>
+
+          <a href="Nicolas Kenji Fukusima Goh - CV.pdf" id="cv" download>
+            <h2 class="center"><i class="fas fa-file-download"></i></h2>
+            <h4 class="center">Download CV</h4>
+          </a>
+
         </aside>
       </section>
     </div>
   </article>
 
-  <!-- projects -->
+  <!-- PROJECTS -->
   <div class="parallax2" id="projects">
 
   </div>
+
+  <!-- FOOTER/CONTACT-->
+  <footer id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 center">
+
+          <span class="fa-stack fa-2x">
+            <a href="https://www.linkedin.com/in/nickenji/">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+
+          <span class="fa-stack fa-2x">
+            <a href="https://github.com/Nickenji">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fab fa-github fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+
+          <span class="fa-stack fa-2x">
+            <a href="">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+
+          <span class="fa-stack fa-2x">
+            <a href="">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

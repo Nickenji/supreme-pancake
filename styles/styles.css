@@ -8,6 +8,14 @@ html, body {
     color: #FFF;
     font-family: 'Roboto', sans-serif;
 }
+
+.center {
+    text-align: center;
+}
+
+.bg-purple {
+    background: rgba(97, 68, 208, 0.9);
+}
 /*================== font ====================*/
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
@@ -57,7 +65,7 @@ p {
 .navbar-dark .nav-item .nav-link:link {
     color: #FFF;
 }
-;
+
 .navbar-dark .nav-item .nav-link:visited {
     color: #FFF;
 }
@@ -103,19 +111,13 @@ p {
 }
 
 /*================== resume ====================*/
-.bg-purple {
-    padding: 30px;
-    background: rgba(97, 68, 208, 0.9);
+.space {
+    padding: 40px;
 }
 
 .marcador {
     border: 2px solid black;
     border-radius: 30px;
-}
-
-
-.center {
-    text-align: center;
 }
 
 .divider-top {
@@ -127,8 +129,22 @@ p {
     border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+#cv:link {
+    color: #FFF;
+}
 
+#cv:visited {
+    color: #FFF;
+}
 
+#cv:hover {
+    color: #1ED760;
+    text-decoration: none;
+}
+
+#cv:active {
+    color:#64F87F;
+}
 /*================== timeline ====================*/
 /* Timeline holder */
 ul.timeline {
@@ -178,4 +194,19 @@ li.timeline-item::before {
     height: 14px;
     z-index: 400;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/*================== footer ====================*/
+footer {
+    background: #293347;
+    padding: 50px 0px;
+    height: 50%;
+}
+
+.fa-circle {
+    color: #6044D0;
+}
+
+.fab:hover {
+    opacity: 0.5;
 }
