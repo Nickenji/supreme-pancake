@@ -39,6 +39,11 @@ h4 {
     letter-spacing: 1px;
 }
 
+h5 {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
 p {
     font-size: 16px;
     letter-spacing: 1px;
@@ -199,7 +204,7 @@ li.timeline-item::before {
 /*================== footer ====================*/
 footer {
     background: #293347;
-    padding: 50px 0px;
+    padding: 20px;
     height: 50%;
 }
 
@@ -208,5 +213,18 @@ footer {
 }
 
 .fab:hover {
-    opacity: 0.5;
+    color:#293347;
+}
+
+.fab:active {
+    color: #000;
+}
+
+.contact {
+    padding-top: 30px;
+}
+
+.divider-bottom {
+    padding: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
