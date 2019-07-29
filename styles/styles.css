@@ -168,7 +168,7 @@ ul.timeline {
  /* Timeline vertical line */
 ul.timeline:before {
     content: ' ';
-    background: #fff;
+    background: #FFF;
     display: inline-block;
     position: absolute;
     left: 16px;
@@ -252,7 +252,7 @@ footer {
     background: #5907D3; 
 }
 
-/*================== skillbar ====================*/
+/*================== skillbar/language ====================*/
 .skill-box {
     background: #293347;
     padding: 4px;
@@ -295,6 +295,10 @@ footer {
     background: #0FFFB7;
     width: 15%;
     height: 5px;
+}
+
+.circle-color {
+    color: #0FFFB7;
 }
 
 .align-left {
