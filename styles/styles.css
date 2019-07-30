@@ -9,10 +9,6 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-.center {
-    text-align: center;
-}
-
 .bg-purple {
     background: rgba(97, 68, 208, 0.9);
 }
@@ -308,4 +304,16 @@ footer {
 .btn-teal:hover {
     background: rgba(15, 255, 183, 1);
     color:#FFF;
+}
+
+/*================== project ====================*/
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.card {
+    width: 90%;
+    color: #000;
 }
