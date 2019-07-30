@@ -139,23 +139,6 @@ p {
     border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-#cv:link {
-    color: #FFF;
-}
-
-#cv:visited {
-    color: #FFF;
-}
-
-#cv:hover {
-    color: #0FFFB7;
-    text-decoration: none;
-}
-
-#cv:active {
-    color:#1ECC98;
-}
-
 /*================== timeline ====================*/
 /* Timeline holder */
 ul.timeline {
@@ -235,7 +218,7 @@ footer {
     border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
 
-/*================== scroolbar ====================*/
+/*================== scrollbar ====================*/
 /* width */
 ::-webkit-scrollbar {
     width: 8px;
@@ -252,7 +235,7 @@ footer {
     background: #5907D3; 
 }
 
-/*================== skillbar/language ====================*/
+/*================== aside/skillbar/button ====================*/
 .skill-box {
     background: #293347;
     padding: 4px;
@@ -298,7 +281,7 @@ footer {
 }
 
 .circle-color {
-    color: #0FFFB7;
+    color: rgba(15, 255, 183, 0.8);
 }
 
 .align-left {
@@ -307,4 +290,22 @@ footer {
 
 .align-right {
     float: right;
+}
+
+.btn-custom {
+    border-radius: 500px;
+    transition: background 0.5s, color 0.3s;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.btn-teal {
+    background: rgba(15, 255, 183, 0.8);
+}
+
+.btn-teal:hover {
+    background: rgba(15, 255, 183, 1);
+    color:#FFF;
 }
